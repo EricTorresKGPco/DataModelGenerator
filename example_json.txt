@@ -1,0 +1,47 @@
+digitalData = {
+    "page": {
+        "id": "%pageID%"
+	    “url”: "%url%"
+        "category": "%pageCategory%"
+    },
+    "product": [{
+        "id": "%productID%"
+        "name": "%productName%"
+        "category": "%productCategory%"
+        "price": "%productPrice%"
+    }],
+    "cart": {
+        "id": "%cartID%"
+        "totalItems": "%totalItems%"
+        "totalPrice": "%totalPrice%"
+	“itemList”: [{
+		“id”: "%itemID%"
+		“quantity”: "%itemQuantity%"
+                }]
+    },
+    "transaction": {
+        "id": "%transactionID%"
+        "totalValue": "%transactionTotalValue%"
+        "currency": "%transactionCurrency%"
+    },
+    "event": {
+        "id": "%eventID%",
+        "name": "%eventName%"
+        “group”: "%eventGroup%"
+        "timestamp": "%eventTimestamp%"
+    },
+    "component": {
+        "id": "%compnentID%"
+        "type": "%componentType%"
+        "label": "%componentLabel%"
+    },
+    "user": {
+        "id": "%userID%"
+        "sessionID": "%userSessionID%"
+        "deviceType": "%userDeviceType%"
+    },
+    "version": {
+        "dataLayerVersion": "%dataLayerVersion%"
+        "appVersion": "%appVersion%"
+    }
+}
